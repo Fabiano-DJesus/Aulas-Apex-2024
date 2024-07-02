@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="">Nome</label>
+        <input type="text" name="NOME" placeholder="Digite o nome completo" required>
+        
+        <label for="">Número</label>
+        <input type="number" name="Número" value="100" >
+
+
+        <label for="">Senha</label>
+        <input type="password" name="Senha">
+
+        <label for="">Estados</label>
+        <select name="estados">
+            <option value="">Selecione</option>
+<option value="SC">Santa Catarina</option>
+<option value="PR">Paraná</option>
+<option value="RS">Rio Grande do Sul</option>
+
+<label for="">Sexo</label>
+<input type="radio" name="Sexo" value="M"> Masculino
+<input type="radio" name="Sexo" value="F"> Feminino
+
+<label for="">Quais suas cores favoritas?</label>
+<input type="checkbox" name="cor" value="Preto">Preto
+<input type="checkbox" name="cor" value="Branco">Branco
+<input type="checkbox" name="cor" value="Amarelo">Amarelo
+<input type="checkbox" name="cor" value="Verde">Verde
+<input type="checkbox" name="cor" value="Vermelho">Vermelho
+
+<label for="">Detalhammento</label>
+<textarea name="texto"  cols="30" rows="10"></textarea>
+        
+
+
+        <input type="submit" Value="SALVAR">
+        <button type="submit">Salvar</button>
+    </form>
+</body>
+</html>
+<!--reqired é obrigtório, readonly ou disable não se pode alterare não é enviado como dados-->
