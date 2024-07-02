@@ -1,0 +1,80 @@
+/*seletor pelo nome da tag*/
+h1{
+    color: rgb(7, 73, 117);
+    font-size: 100px;
+    font-style: italic;
+}
+/*seletor do atributo class - sempre começando com "ponto"*/
+.professor{
+    color:red;
+    font-size: 40px;
+}
+/*seletor do atributi id - sempre começando com "#*/
+#aula{
+    color: green;
+}
+.noturno{
+    font-size: italic;
+}
+/* seletores descendentes*/
+div h2{
+    font-size: 50px;
+}
+/*descedente indiretos - qualquer p que tiver dentro da div pega essa regra */
+div p{
+    font-size: 60px;
+    color:brown
+}
+/* descendentes diretos - apenas o b que tiver dentro da div pega a regra */
+div > b{
+    color: blue;
+    font-size: 70px;
+
+}
+/*seletores atributos:pega todos os atributos que tenham o atributo referenciado */
+b[title]{
+    color:yellow;
+}
+/*seletores do atributo que considera valor do atributo: pega apenas o elementos que o atributo e o valor coincidem */
+b[title]{
+    color:chocolate;
+}
+/* PSEUDO seletores*/
+a{
+    font-size: 80px;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+
+}
+a:active{
+    color:yellow
+}
+/* propriedade de bloco*/
+.bloco{
+ width: 200px;
+ height: 200pt;
+ /*
+ padrão de uso de cores
+ nomeado: usando o nome da cor em ingles
+ hexadecimal: #000000
+ R - Red
+ G - Green
+ B - Blue
+ #RRGGBB
+ 0 - 9
+ A - F
+
+ Padrão RGB
+ rgb(r,g,b)
+ enter 0 - 255
+
+ padrão rgba
+ rgba(r,g,b,a)
+ A - alfa (opacidade, transparência)
+ entre 0 -1
+ */
+ background-color:rgba(167, 217, 233, 0.925);
+}
+

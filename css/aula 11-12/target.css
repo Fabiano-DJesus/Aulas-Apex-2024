@@ -1,0 +1,14 @@
+/*target = alvo
+    o seletor target utiliza um fragmento da url após #fragmento para selecionar o elemento no código cujo id seja igual ao nome do fragmento
+*/
+.section{
+    padding: 20px;
+    margin: 20px 0;
+    border: 3px solid red;
+}
+.section:target{
+    background-color: yellow;
+}
+input:focus{
+background-color: red;
+}

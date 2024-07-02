@@ -1,0 +1,43 @@
+h1{
+    color: rgba(7, 73, 117, 0.863);
+    font-size: 100px;
+    font-style: italic;
+    font-stretch: expanded;
+    font: verdana;
+}
+h2{
+    color: rgba(184, 10, 10, 0.925);
+    font-size: 80px;
+    font-style: oblique;
+    font-stretch: extra-condensed;
+    font: times;
+}
+h3{
+    color: rgb(75, 62, 20);
+    font-size: 100px;
+    font-style: italic;
+    font-stretch: wider;
+    font: arial;
+}
+a{
+    font-size: 80px;
+    text-decoration: none;
+    font:impact;
+}
+a:hover{
+    color:red;
+
+}
+a:active{
+    color:yellow
+}
+div{
+    font: 80px arial italic red;
+    width: 450px;
+    height: 200pt;
+    background-color: green;
+    border-left: 20px solid rgb(42, 82, 194);
+    border-bottom: 30px solid black;
+    border-top: 40px solid white;
+    border-right: 20px solid red;
+}

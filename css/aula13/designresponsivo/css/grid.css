@@ -1,0 +1,35 @@
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+}
+.col{
+    float:left;
+    padding: 15px;
+    border: 1px solid yellowgreen;
+    background-color: red;
+    box-sizing: border-box; /*joga o paddin e o border pra dentro do div*/
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.665%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+@MEDIA (MAX-WIDTH: 600PX){
+    [class*="col-"]{ /*pseudo seletor *= contenha o trecho ou filtro*/
+        width: 100%;
+    }
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display:block;
+}

@@ -1,0 +1,117 @@
+/*unidades de medida
+px - pixel é uma unidade de medida fixa
+% porcentagem - relativa ao elemento pai
+
+viewport - unidade de medida proporcional
+
+*/
+body {
+    background: rgb(161, 156, 156);
+}
+
+.bloco {
+    width: 300px;
+    height: 300px;
+    background: blue;
+}
+
+.bloco2 {
+    width: 300px;
+    height: 300px;
+    background: rgb(255, 255, 0);
+    /*border-width: 5px;
+    border-color: red;
+    border-style:inset ;
+border: 05px solid red;*/
+    border-left: 20px solid green;
+    border-bottom: 30px solid black;
+    border-top: 40px solid white;
+    border-right: 20px solid red;
+}
+
+.bloco3 {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    /* top right bottom left */
+    margin: 20px 10px 15px 30px;
+    /* top botton / left right */
+    /* margin: 20px 40px;*/
+}
+
+.bloco4 {
+    width: 300px;
+    height: 340px;
+    background-color: goldenrod;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+.bloco4 .bloco4a {
+    width: 100px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.13);
+    display: inline-block;
+}
+
+
+/*display*/
+/*propriedade de flutuação*/
+.bloco {
+    float: none;
+    height: unset;
+    width: unset;
+    max-width: 400px;
+
+}
+
+.blocotexto {
+    /* min-width: 300px;
+    min-height: 50px;
+    max-width: 500px;
+    max-height: 500px; */
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    overflow-y: scroll;
+    /* position: fixed; */
+    /* bottom: 0;
+    right: 0; */
+    /* top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px; */
+top:400px;
+
+}
+
+.content{
+ color: red;
+ font-size: 100px;   
+ 
+}
+.content::before{
+    content: "Antes do 👍";
+    color: green;
+    
+}
+
+.content::after{
+    content:"🤦‍♂️";
+}
+
+.sombra{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: white;
+    /* box-shadow:hor/ver/ blur/ spread/color/inset  */
+    box-shadow: 0px 0px 14px 0px black;
+    border-radius: 100px;
+    overflow: hidden;
+
+}
+/* backround */
+.body{
+    background:url("../img/jesus.png")
+}

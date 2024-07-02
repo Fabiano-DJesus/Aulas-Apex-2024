@@ -1,0 +1,35 @@
+/*unidade de medida fixa*/
+.pixel{
+    font-size: 64px;
+}
+/*unidade relativa ao elemento pai*/
+div{
+    font-size: 20px;
+} 
+.unidadeREM{
+    font-size: 8rem;
+} 
+/*unidade Relativa*/
+.unidadeEM{
+    font-size: 6em;
+}
+/* media querie */
+
+@media (max-width: 400px){
+    .pixel{
+        font-size: 14px;
+    }
+}
+@media (min-width: 601px) and (max-width:1200px){
+    .pixel{
+        font-size: 30px;
+        color: red;
+
+    }
+}
+@media (min-width: 1201px){
+    .pixel{
+        font-size: 60px;
+        color: green;
+    }
+}
